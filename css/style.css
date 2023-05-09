@@ -85,6 +85,7 @@ section {
 .home-img img {
     width: 35vw;
     animation: floatImage 4s ease-in-out infinite;
+    border-radius: 50%;
 }
 
 
@@ -164,6 +165,7 @@ span {
 
 .about-img img {
     width: 35vw;
+    border-radius: 50%;
 }
 
 .about-content h2 {
