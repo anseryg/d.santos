@@ -33,3 +33,16 @@ window.onscroll = () => {
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
 };
+
+const modoBtn = document.getElementById('modo-btn');
+const root = document.documentElement;
+const modoClaroImg = document.querySelector('.modo-claro-img');
+const modoEscuroImg = document.querySelector('.modo-escuro-img');
+
+
+function alternarModo () {
+    root.classList.toggle('light-mode');
+    root.classList.toggle('dark-mode');
+}
+
+modoBtn.addEventListener('click', alternarModo)

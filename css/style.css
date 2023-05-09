@@ -16,6 +16,13 @@
     --second-bg-color: #f8f8f8;
     --text-color: #000000;
     --main-color: #9745F5;
+    --white-universal: #fff;
+}
+
+.dark-mode {
+    --bg-color: #111111;
+    --second-bg-color: #1D1D1D;
+    --text-color: #fff;
 }
 
 html {
@@ -74,6 +81,21 @@ section {
     font-size: 3.6rem;
     color: var(--text-color);
     display: none;
+}
+
+#modo-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    color: var(--text-color);
+    border-radius: 4rem;
+    padding: 8px;
+    border: 1px solid var(--text-color);
+    background: var(--second-bg-color);
+    font-weight: 700;
+    font-size: 1.6rem;
 }
 
 .home {
@@ -180,6 +202,7 @@ span {
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+    text-indent: 5px;
 }
 
 .languages img {
