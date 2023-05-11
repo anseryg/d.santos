@@ -15,7 +15,7 @@
     --bg-color: #FFFFFF;
     --second-bg-color: #f8f8f8;
     --text-color: #000000;
-    --main-color: #9745F5;
+    --main-color: #4110be;
     --white-universal: #fff;
 }
 
@@ -29,6 +29,17 @@ html {
     font-size: 62.5%;
     overflow-x: hidden;
 }
+
+html ::-webkit-scrollbar {
+    width: 10px;
+  }
+  html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #4110be;
+  }
+  html ::-webkit-scrollbar-track {
+    background: #1c1c1c;
+  }
 
 body {
     background: var(--bg-color);
@@ -107,7 +118,7 @@ section {
 .home-img img {
     width: 35vw;
     animation: floatImage 4s ease-in-out infinite;
-    border-radius: 50%;
+    border-radius: 0%;
 }
 
 
